@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+    <name>OpenTable Form</name>
+    <author>Chris Pappas</author>
+    <authorEmail>cpappas@hepcom.ca</authorEmail>
+    <version>0.1</version>
+    <description>Simple OpenTable display module</description>
+    <files>
+        <filename>mod_opentable.xml</filename>
+        <filename module="mod_opentable">mod_opentable.php</filename>
+        <filename>index.html</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/default.css</filename>
+        <filename>tmpl/jquery.noconflict.js</filename>
+        <filename>tmpl/jquery.initOpenTable.js</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+    <params>
+      <!-- parameter to allow placement of a module class suffix for the module table / xhtml display -->
+      <param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+
+      <!-- just gives us a little room between the previous parameter and the next -->
+      <param name="@spacer" type="spacer" default="" label="" description="" />
+
+      <!-- A parameter that allows an administrator to modify the number of users that this module will display -->
+      <param name="restaurant_id" type="text" default="35740" label="RestaurantID" description="OpenTable 'RestaurantID'" />
+      <param name="geo_id" type="text" default="54" label="GeoID" description="OpenTable 'GeoID'" />
+      <param name="date_format" type="text" default="dd/MM/yyyy" label="Date Format" description="OpenTable 'txtDateFormat'" />
+     
+      <!-- just gives us a little room between the previous parameter and the next -->
+      <param name="@spacer" type="spacer" default="" label="" description="" />
+
+      <!-- A parameter that allows an administrator to modify the number of users that this module will display -->
+      <param name="include_jquery" type="radio" default="1" label="Include jQuery 1.5 libraries" description="Whether to include the jQuery 1.5 libraries using the Google Code CDN (disable this if you have already included jQuery)">
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+      </param>
+
+      <param name="include_jquery_noconflict" type="radio" default="1" label="Include jQuery no-conflict handler" description="Activates the jQuery no-conflict mode">
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+      </param>
+
+      <param name="include_jquery_ui" type="radio" default="1" label="Include jQuery UI 1.8 libraries" description="Whether to include the jQuery UI 1.8 libraries using the Google Code CDN (disable this if you have already included jQuery UI)">
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+      </param>
+     
+      <param name="include_jquery_ui_css" type="radio" default="1" label="Include jQuery UI 1.8 Theme CSS" description="Whether to include the jQuery UI 1.8 CSS using the Google Code CDN (disable this if you have already included jQuery UI theme CSS)">
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+      </param>
+
+      <param name="jquery_ui_css_theme" type="list" default="base" label="jQuery UI Theme" description="The name of the theme to include if the above parameter is set to 'yes'">
+        <option value="base">base</option>
+        <option value="black-tie">black-tie</option>
+        <option value="blitzer">blitzer</option>
+        <option value="cupertino">cupertino</option>
+        <option value="dark-hive">dark-hive</option>
+        <option value="dot-luv">dot-luv</option>
+        <option value="eggplant">eggplant</option>
+        <option value="excite-bike">excite-bike</option>
+        <option value="flick">flick</option>
+        <option value="hot-sneaks">hot-sneaks</option>
+        <option value="humanity">humanity</option>
+        <option value="le-frog">le-frog</option>
+        <option value="mint-choc">mint-choc</option>
+        <option value="overcase">overcase</option>
+        <option value="pepper-grinder">pepper-grinder</option>
+        <option value="redmond">redmond</option>
+        <option value="smoothness">smoothness</option>
+        <option value="south-street">south-street</option>
+        <option value="start">start</option>
+        <option value="sunny">sunny</option>
+        <option value="swanky-purse">swanky-purse</option>
+        <option value="trontastic">trontastic</option>
+        <option value="ui-darkness">ui-darkness</option>
+        <option value="ui-lightness">ui-lightness</option>
+        <option value="vader">vader</option>
+      </param>
+
+    </params>
+</install>
+

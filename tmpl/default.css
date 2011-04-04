@@ -1,0 +1,36 @@
+form.mod_opentable_form {
+  
+}
+
+form.mod_opentable_form div#mod_opentable_title {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1em;
+}
+
+form.mod_opentable_form table.opentable {
+  width: 100%;
+}
+
+form.mod_opentable_form table.opentable label {
+  font-size: 12px;
+}
+
+form.mod_opentable_form table.opentable select,
+form.mod_opentable_form table.opentable input {
+  font-size: 12px;
+}
+
+form.mod_opentable_form table.opentable td {
+  vertical-align: top;
+  text-align: right;
+  white-space: nowrap;
+}
+
+form.mod_opentable_form td.date p#dateDisplay {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  padding-right: 10px;
+}
+
