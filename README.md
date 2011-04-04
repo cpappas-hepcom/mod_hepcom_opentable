@@ -14,7 +14,7 @@ Can also include the jQuery and jQuery UI scripts and even specify which theme t
 Download
 ---
 
-[mod_opentable.zip](mod_opentable.zip)
+[mod_opentable.zip](https://github.com/cpappas-hepcom/mod_hepcom_opentable/blob/master/mod_opentable.zip?raw=true)
 
 
 Requirements
