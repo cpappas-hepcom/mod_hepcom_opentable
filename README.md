@@ -1,7 +1,7 @@
 Hepcom OpenTable Module for Joomla 1.5 - jQuery UI
 ==================================================
 
-Module to display a form compatible with OpenTable.com's reservation system. I altered it to use jQuery UI to display the date picker,
+Joomla 1.5 Module to display a form compatible with OpenTable.com's reservation system. I altered it to use jQuery UI to display the date picker,
 as the script provided by OpenTable had some issues with z-indexing etc.
 
 Can also include the jQuery and jQuery UI scripts and even specify which theme to use. All content is loaded from the Google Code repository.
