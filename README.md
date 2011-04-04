@@ -11,6 +11,11 @@ Can also include the jQuery and jQuery UI scripts and even specify which theme t
 * may specify the restaurant_id and geo_id for properly directing the reservations
 * toggle whether the various jQuery resources are loaded... if you are already loading jQuery elsewhere then you can turn it off to save some bandwidth and redundant processing time.
 
+Download
+---
+
+[mod_opentable.zip](mod_opentable.zip)
+
 
 Requirements
 ------------
