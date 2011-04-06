@@ -42,10 +42,12 @@ JHTML::script('jquery.initOpenTable.js', 'modules/mod_opentable/tmpl/', false);
 // and the OpenTable form styling
 JHTML::stylesheet('default.css', 'modules/mod_opentable/tmpl/');
 
+$title = $params->get('title_text', 'Book A Table');
+
 ?>
 
 <form action="http://www.opentable.com/ism/interim.aspx" method="post" id="ism" name="ism" class="mod_opentable_form">
-<div id="mod_opentable_title">Book a Table</div>
+<div id="mod_opentable_title"><?php echo $title ?></div>
 <table class="opentable">
 <tr>
   <td class="partySize">

@@ -22,6 +22,12 @@
       <!-- just gives us a little room between the previous parameter and the next -->
       <param name="@spacer" type="spacer" default="" label="" description="" />
 
+      <!-- A parameter that allows an administrator to specify the title at the top of the module -->
+      <param name="title_text" type="text" default="Book A Table" label="Heading Title" description="The title at the top of the form (default: Book A Table)" />
+
+      <!-- just gives us a little room between the previous parameter and the next -->
+      <param name="@spacer" type="spacer" default="" label="" description="" />
+
       <!-- A parameter that allows an administrator to modify the number of users that this module will display -->
       <param name="restaurant_id" type="text" default="35740" label="RestaurantID" description="OpenTable 'RestaurantID'" />
       <param name="geo_id" type="text" default="54" label="GeoID" description="OpenTable 'GeoID'" />
